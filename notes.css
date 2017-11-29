@@ -1,0 +1,44 @@
+body {
+padding: 5% 20% 10% 10.5% ;
+font-family: Helvetica;
+background: #f6f6f6;
+}
+h1, h2, h3, h4 {
+  font-family: Helvetica;
+  font-weight: lighter;
+  color:#73000a;
+  font-variant: small-caps;
+  margin-left: -5%;
+}
+h1{
+  margin-left: -10%;
+  border-bottom: 1px dashed #21578a
+}
+hr {
+    border-color: #21578a;
+    }
+p{
+  line-height: 1.5em;
+}
+li {
+  font-size: 0.95em;
+  padding-bottom:8px;
+    line-height: 1.4em;
+}
+li > ul > li, li > ol > li {
+  padding-top: 4px;
+}
+.footnote {
+  font-size: 0.75em;
+  font-weight: bold;
+  vertical-align: top;
+}
+.fReading
+{
+  color: #21578a;
+  text-decoration: underline;
+}
+.zThoughts {
+  font-style: oblique;
+  color: #21578a;
+}
