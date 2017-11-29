@@ -14,6 +14,12 @@ h1{
   margin-left: -10%;
   border-bottom: 1px dashed #21578a
 }
+.noteTitle {
+  margin-left: 0%;
+  border-bottom: none;
+  text-align:center;
+  font-size: 4em;
+}
 hr {
     border-color: #21578a;
     }
