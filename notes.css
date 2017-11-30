@@ -1,8 +1,13 @@
+/*Page Basics/layout*/
 body {
 padding: 5% 20% 10% 10.5% ;
 font-family: Helvetica;
-background: #f6f6f6;
+background: #f7f7f7;
 }
+hr {
+    border-color: #21578a;
+    }
+/*headings*/
 h1, h2, h3, h4 {
   font-family: Helvetica;
   font-weight: lighter;
@@ -14,9 +19,13 @@ h1{
   margin-left: -10%;
   border-bottom: 1px dashed #21578a
 }
-hr {
-    border-color: #21578a;
-    }
+.noteTitle {
+  margin-left: 0%;
+  border-bottom: none;
+  text-align:center;
+  font-size: 4em;
+}
+/*text*/
 p{
   line-height: 1.5em;
 }
@@ -28,6 +37,29 @@ li {
 li > ul > li, li > ol > li {
   padding-top: 4px;
 }
+/*tables*/
+table
+{
+width:35%;
+}
+th
+{
+  color: #73000a;
+  text-decoration: underline;
+  text-align: left;
+}
+tr
+{line-height: 1.5em;}
+td:first-child
+{
+  padding-right: 2.4%;
+    border-right:dotted;
+  border-right-width:1px;
+}
+td
+{border-bottom: dotted;
+border-bottom-width: 1px;}
+/*Notes*/
 .footnote {
   font-size: 0.75em;
   font-weight: bold;
