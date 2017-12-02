@@ -56,10 +56,18 @@ td:first-child
     border-right:dotted;
   border-right-width:1px;
 }
+em .note
+{
+  #73000a
+}
 td
 {border-bottom: dotted;
 border-bottom-width: 1px;}
 /*Notes*/
+em .note
+{
+  color:#73000a;
+}
 .footnote {
   font-size: 0.75em;
   font-weight: bold;
