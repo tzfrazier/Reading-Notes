@@ -9,10 +9,35 @@ hr
 {
     border-color: #21578a;
     }
+/*nav*/
+nav {
+  height:;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  background-color: #73000a;
+}
+nav > ul {top:0;
+margin:0;}
+nav > ul > li {
+  display: inline-block;
+  margin-left:15px  ;
 
-
-
-
+  top:0;
+}
+nav > ul > li > a {
+  text-decoration:none;
+  border: solid;
+  border-radius: 5px;
+  border-color:#fff;
+  padding:5px;
+  color:#fff;
+}
+nav > ul > li > a:hover {
+    background-color:#fff;
+    color:#73000a;
+}
 
 /*headings*/
 h1, h2, h3, h4
