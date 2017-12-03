@@ -37,6 +37,7 @@ nav > ul > li > a {
 nav > ul > li > a:hover {
     background-color:#fff;
     color:#73000a;
+    font-weight: bold;
 }
 
 /*headings*/
